@@ -1,0 +1,8 @@
+SELECT 
+	* 
+FROM 
+	Sales.Orders
+ORDER BY
+	orderid DESC
+OFFSET 50 ROWS 
+FETCH FIRST 25 ROWS ONLY
